@@ -3,7 +3,7 @@
 // цифру этого числа.
 
 Console.Write("Введите трехзначное число :");
-int a = int.Parse(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 if ((a < 1000) && (a > 99))
 {
     int first = a / 100;
